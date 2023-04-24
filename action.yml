@@ -1,4 +1,4 @@
-name: 'Upload a Release Asset'
+name: 'Upload a Release Asset - Node.js 16'
 description: 'Upload a release asset to an existing release in your repository'
 author: 'GitHub'
 inputs:
@@ -18,7 +18,7 @@ outputs:
   browser_download_url:
     description: 'The URL users can navigate to in order to download the uploaded asset'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
 branding:
   icon: 'package'
